@@ -1,0 +1,83 @@
+{
+  "client": "Thunder Client",
+  "collectionName": "NLW eSports",
+  "dateExported": "2022-09-15T21:48:16.188Z",
+  "version": "1.1",
+  "folders": [
+    {
+      "_id": "697e7d7b-8d64-428e-b6b4-5ec1468d45bb",
+      "name": "ads",
+      "containerId": "",
+      "created": "2022-09-15T21:36:23.228Z",
+      "sortNum": 10000
+    },
+    {
+      "_id": "1b2c6196-a872-4077-a4a5-5783d9aa1c93",
+      "name": "discord",
+      "containerId": "",
+      "created": "2022-09-15T21:37:14.395Z",
+      "sortNum": 20000
+    },
+    {
+      "_id": "9e4de18e-13ed-4bcf-8457-2b2e42f3345c",
+      "name": "games",
+      "containerId": "",
+      "created": "2022-09-15T21:37:59.195Z",
+      "sortNum": 30000
+    }
+  ],
+  "requests": [
+    {
+      "_id": "09dd499d-7f45-4c4a-96e4-4e3bf8d65e40",
+      "colId": "c25f0115-005c-404d-b160-48f4b1dac543",
+      "containerId": "697e7d7b-8d64-428e-b6b4-5ec1468d45bb",
+      "name": "List Ads By Game",
+      "url": "http://localhost:3333/games/1/ads",
+      "method": "GET",
+      "sortNum": 10000,
+      "created": "2022-09-15T21:35:41.357Z",
+      "modified": "2022-09-15T21:36:24.780Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "3d32ff70-3859-49f3-843f-af519fa69293",
+      "colId": "c25f0115-005c-404d-b160-48f4b1dac543",
+      "containerId": "697e7d7b-8d64-428e-b6b4-5ec1468d45bb",
+      "name": "Create Ad",
+      "url": "http://localhost:3333/ads",
+      "method": "POST",
+      "sortNum": 20000,
+      "created": "2022-09-15T21:36:33.606Z",
+      "modified": "2022-09-15T21:36:56.217Z",
+      "headers": [],
+      "params": [],
+      "tests": []
+    },
+    {
+      "_id": "587e355b-a146-46ad-b5a8-a9c657d905af",
+      "colId": "c25f0115-005c-404d-b160-48f4b1dac543",
+      "containerId": "1b2c6196-a872-4077-a4a5-5783d9aa1c93",
+      "name": "Get Discord By Ad",
+      "url": "",
+      "method": "GET",
+      "sortNum": 20000,
+      "created": "2022-09-15T21:37:26.588Z",
+      "modified": "2022-09-15T21:37:26.588Z",
+      "headers": []
+    },
+    {
+      "_id": "bf316cda-1176-407b-80a3-d98c27c43c4d",
+      "colId": "c25f0115-005c-404d-b160-48f4b1dac543",
+      "containerId": "9e4de18e-13ed-4bcf-8457-2b2e42f3345c",
+      "name": "List games",
+      "url": "",
+      "method": "GET",
+      "sortNum": 30000,
+      "created": "2022-09-15T21:38:04.635Z",
+      "modified": "2022-09-15T21:38:04.635Z",
+      "headers": []
+    }
+  ]
+}
